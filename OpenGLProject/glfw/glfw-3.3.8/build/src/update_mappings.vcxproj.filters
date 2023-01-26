@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aisle\Documents\2023\OpenGLProject\glfw\glfw-3.3.8\build\CMakeFiles\e96837746984fc275a92e2e03c7ac55a\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\aisle\Documents\2023\OpenGLProject\glfw\glfw-3.3.8\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\aisle\Documents\2023\OpenGLProject\glfw\glfw-3.3.8\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\aisle\Documents\2023\OpenGLProject\glfw\glfw-3.3.8\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\aisle\Documents\2023\OpenGLProject\glfw\glfw-3.3.8\build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EC4A39E5-6CC8-3FF7-A324-4DFAEB52A0DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6E08F30B-A446-3761-825F-6457B3DD5B97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
