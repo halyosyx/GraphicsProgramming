@@ -78,13 +78,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\aisle\Documents\2023\OpenGLProject\glfw\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aisle\Documents\2023\OpenGLProject\glfw\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\aisle\Documents\2023\GraphicsProgrammingProject\OpenGLProject\glfw\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\aisle\Documents\2023\GraphicsProgrammingProject\OpenGLProject\glfw\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\aisle\Documents\2023\OpenGLProject\glfw\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aisle\Documents\2023\OpenGLProject\glfw\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\aisle\Documents\2023\GraphicsProgrammingProject\OpenGLProject\glfw\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\aisle\Documents\2023\GraphicsProgrammingProject\OpenGLProject\glfw\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -146,7 +146,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="glad.c" />
+    <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
